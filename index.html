@@ -2,36 +2,50 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata for character set, compatibility, and viewport -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Link to Google Fonts (Poppins and Roboto) -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Link to external stylesheet (style.css) -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Title for the HTML document -->
     <title>Day #2 - Weather App | Faderen</title>
 </head>
 
 <body>
 
+    <!-- Main container for the Weather App -->
     <div class="container">
+
+        <!-- Search box with location icon, input field, and search button -->
         <div class="search-box">
             <i class="fas fa-location-dot"></i>
             <input type="text" placeholder="Søk på sted">
             <button class="fas fa-search"></button>
         </div>
 
+        <!-- Not found section with image and error message -->
         <div class="not-found">
             <img src="img/404.png" alt="Not Found">
             <p>Ups! Ugyldig søk :/</p>
         </div>
 
+        <!-- Weather information box with weather image, temperature, and description -->
         <div class="weather-box">
             <img src="" alt="Weather Image">
             <p class="temperature"></p>
             <p class="description"></p>
         </div>
 
+        <!-- Weather details section with humidity and wind speed -->
         <div class="weather-details">
+
+            <!-- Humidity information with water icon, value, and label -->
             <div class="luftfuktighet">
                 <i class="fas fa-water"></i>
                 <div class="text">
@@ -39,6 +53,8 @@
                     <p>Luftfuktighet</p>
                 </div>
             </div>
+
+            <!-- Wind speed information with wind icon, value, and label -->
             <div class="vindhastighet">
                 <i class="fas fa-wind"></i>
                 <div class="text">
@@ -49,7 +65,10 @@
         </div>
     </div>
 
+    <!-- Script tag to include Font Awesome icons -->
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+
+    <!-- Script tag to include the JavaScript file (index.js) -->
     <script src="index.js"></script>
 </body>
 

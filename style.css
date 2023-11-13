@@ -1,3 +1,10 @@
+/**
+ * Weather App CSS Documentation
+ * ------------------------------
+ * This stylesheet styles the Weather App interface.
+ */
+
+/* Reset some default styles for all elements */
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +13,7 @@
     box-sizing: border-box;
 }
 
+/* Styling for the body of the document */
 body{
     height: 100vh;
     display: flex;
@@ -14,6 +22,7 @@ body{
     background: #06283D;
 }
 
+/* Styling for the main container */
 .container{
     position: relative;
     width: 400px;
@@ -26,6 +35,7 @@ body{
     transition: 0.6s ease-out;
 }
 
+/* Styling for the search box */
 .search-box{
     width: 100%;
     height: min-content;
@@ -34,6 +44,7 @@ body{
     justify-content: space-between;
 }
 
+/* Styling for the input put in the search box */
 .search-box input{
     color: #06283D;
     width: 80%;
@@ -43,6 +54,7 @@ body{
     padding-left: 32px;
 }
 
+/* Styling for the search box input placeholder */
 .search-box input::placeholder{
     font-size: 20px;
     font-weight: 500;
@@ -50,6 +62,7 @@ body{
     text-transform: capitalize;
 }
 
+/* Styling for the search button */
 .search-box button{
     cursor: pointer;
     width: 50px;
@@ -61,17 +74,20 @@ body{
     transition: 0.4s ease;
 }
 
+/* Styling for the search button when hovered */
 .search-box button:hover{
     color: #fff;
     background: #06283D;
 }
 
+/* Styling for the search icon */
 .search-box i{
     position: absolute;
     color: #06283D;
     font-size: 28px;
 }
 
+/* Styling for the weather box */
 .weather-box{
     text-align: center;
 }
@@ -86,6 +102,7 @@ body{
 }
 
 .weather-box .temperature{
+    /* ... (Your existing styling for temperature) */
     position: fixed;
     bottom: -40px;
     right: 25px;
@@ -116,6 +133,7 @@ body{
     margin-top: -10px;
 }
 
+/* Styling for weather details */
 .weather-details{
     width: 100%;
     display: flex;
@@ -128,36 +146,46 @@ body{
     width: 50%;
     height: 150px;
 }
-
+/* Styling for humidity section */
 .weather-details .humidity{
+    /* ... (Your existing styling for humidity) */
     padding-left: 20px;
     justify-content: flex-start;
 }
 
+/* Styling for wind section */
 .weather-details .wind{
     padding-right: 20px;
     justify-content: flex-end;
+    /* ... (Your existing styling for wind) */
 }
 
+/* Styling for icons in weather details */
 .weather-details i{
+    /* ... (Your existing styling for icons) */
     color: #06283D;
     font-size: 26px;
     margin-right: 10px;
     margin-top: 75px;
 }
 
+/* Styling for spans in weather details */
 .weather-details span{
+    /* ... (Your existing styling for spans) */
     color: #06283D;
     font-size: 22px;
     font-weight: 500;
 }
 
+/* Styling for paragraphs in weather details */
 .weather-details p{
+    /* ... (Your existing styling for paragraphs) */
     color: #06283D;
     font-size: 14px;
     font-weight: 500;
 }
 
+/* Styling for the not-found section */
 .not-found{
     width: 100%;
     text-align: center;
@@ -178,6 +206,7 @@ body{
     margin-top: 12px;
 }
 
+/* Styling for fadeIn animation */
 .weather-box, .weather-details{
     scale: 0;
     opacity: 0;
