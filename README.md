@@ -1,4 +1,9 @@
-# Weather Application version 1.0
+# Weather Application version 1.1
+In this project, I made a weather application with the help of an API from openweathermap.org.
+It starts off by directing you to a common search, where you can input your desired location. When clicked search, 
+  the page will transform into a small viewer with data regarding the weather conditions.
+
+
 Weather Application v 1.1 (release 13.11.23)
 
 (edited 13.11.23 09:09)
@@ -14,5 +19,5 @@ The project is missing documentation, I will try my best to fix this problem as 
 I'll maybe be updating this project later, to achieve a nearly seamless app.
 
 - Sandelu98
-(last edited 12.11.23 18:45)
+(last edited 13.11.23 09:43)
 
