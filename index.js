@@ -14,7 +14,7 @@ const error404 = document.querySelector('.not-found');
 // Event Listener for Search Button Click
 search.addEventListener('click', () => {
     // OpenWeatherMap API Key
-    const APIKey = '0383d40f5960ce70a68fff67f2fa7c8f';
+    const APIKey = '';
 
     // Get user input city name
     const cityInput = document.querySelector('.search-box input');
